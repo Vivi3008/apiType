@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js build
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Viviane\bin;C:\Python27;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Users\Viviane\AppData\Local\Microsoft\WindowsApps;C:\Users\Viviane\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Viviane\AppData\Roaming\npm;C:\Users\Viviane\AppData\Local\GitHubDesktop\bin;C:\Users\Viviane\AppData\Local\Yarn\bin;C:\Program Files\Docker Toolbox
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Invariant Violation: Script must exist
+      at invariant (C:\Program Files (x86)\Yarn\lib\cli.js:2314:15)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:61495:11
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (C:\Program Files (x86)\Yarn\lib\cli.js:5301:28)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:307:12
+      at realRunCommand (C:\Program Files (x86)\Yarn\lib\cli.js:61580:23)
+      at action.action (C:\Program Files (x86)\Yarn\lib\cli.js:61641:16)
+
+npm manifest: 
+  {
+    "name": "ApiProgramaria",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "nodemon src/server.ts",
+      "build":""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "mongoose": "^5.10.8",
+      "mongoose-paginate": "^5.0.3",
+      "require-dir": "^1.2.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.4",
+      "sucrase": "^3.15.0",
+      "typescript": "^4.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
