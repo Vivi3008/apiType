@@ -1,3 +1,8 @@
-const a = 5
+import express from 'express'
+import routes from './routes'
 
-console.log(a)
+const app = express()
+
+app.use(routes)
+
+app.listen(3000)
